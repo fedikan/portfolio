@@ -186,4 +186,5 @@ footer{
     align-items: flex-end;
     color:white;
     font-size: 20px;
+    flex-wrap:wrap;
 }
