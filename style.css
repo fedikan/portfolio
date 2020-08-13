@@ -174,3 +174,16 @@ li{
     transform: translate(3px);
     box-shadow: 0px 0px 10px #0500FF;
 }
+
+footer{
+    background-color: #0500ff;
+}
+
+.footer__content{
+    padding: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color:white;
+    font-size: 20px;
+}
