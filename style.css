@@ -41,7 +41,10 @@ a:visited {
     font-size: 24px;
     padding: 0 20px;
 }
-
+.header__github{
+    width:75px;
+    height: 75px;
+}
 
 .logo__white {
     color: white;
