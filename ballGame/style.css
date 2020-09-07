@@ -1,0 +1,53 @@
+*,::before,::after{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rules{
+    padding-top:40px;
+    height: 200px;
+    text-align:center;
+    font-size:50px;
+}
+.game{
+    width:1440px;
+    margin:0 auto;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#canvas{
+border: 2px solid black;
+width:500px;
+height: 500px;
+}
+.restart{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    padding-top:50px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.restart_button{
+    margin:0 auto;
+    width:200px;
+    height: 40px;
+    border-radius: 20px;
+    color:white;
+    font-size:20px;
+    background: grey;
+    border:none;
+    outline:none;
+    transition:1s;
+}
+.restart_button:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    color:rgb(214, 255, 0);
+    box-shadow: 0px 0px 5px 3px rgb(214, 255, 0);
+}
